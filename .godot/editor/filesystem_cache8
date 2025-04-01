@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1743478338
+Ant_Agent_Move_Algorithm.gd::GDScript::-1::1743478327::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::4416605809418504630::1743456633::1743456644::1::::<><>::
+::res://Scenes/::1743478338
+Ant_Agent.tscn::PackedScene::6800501914178850358::1743478338::0::1::::<><>::uid://ctqi7uoa1c8o3::::res://Sprites/walking_ant_spritesheet.png
+Game.tscn::PackedScene::821933019765047891::1743477607::0::1::::<><>::uid://bu543g2ti46fo::::res://Sprites/Berry_Garden_TileSheet.png
+Map.tscn::PackedScene::2847982909395446863::1743472453::0::1::::<><>::
+::res://Scripts/::1743478338
+::res://Sprites/::1743478338
+Berry_Garden_TileSheet.png::CompressedTexture2D::3853940041820066236::1743458758::1743458811::1::::<><>::
+walking_ant_spritesheet.png::CompressedTexture2D::6140003394049988908::1743474124::1743478339::1::::<><>::
