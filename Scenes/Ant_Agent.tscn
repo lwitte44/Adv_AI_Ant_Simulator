@@ -1,6 +1,5 @@
-[gd_scene load_steps=68 format=3 uid="uid://c35hjjspj62c5"]
+[gd_scene load_steps=66 format=3 uid="uid://c35hjjspj62c5"]
 
-[ext_resource type="Script" path="res://Scripts/ant_agent_movement.gd" id="1_hvf64"]
 [ext_resource type="Texture2D" path="res://Sprites/walking_ant_spritesheet.png" id="1_uy2st"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x7au3"]
@@ -457,21 +456,9 @@ animations = [{
 "speed": 100.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_iq2ql"]
-radius = 58.4209
-
-[node name="Ant_Agent" type="CharacterBody2D"]
-scale = Vector2(0.6, 0.6)
-collision_mask = 2
-script = ExtResource("1_hvf64")
+[node name="CharacterBody2D" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-1, -15)
 sprite_frames = SubResource("SpriteFrames_62j7u")
 animation = &"Walking"
-autoplay = "Walking"
 frame_progress = 0.633878
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 0)
-shape = SubResource("CircleShape2D_iq2ql")

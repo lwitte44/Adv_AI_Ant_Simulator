@@ -1,13 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://ct6heuw4xkceo"]
+[gd_scene load_steps=5 format=3 uid="uid://ct6heuw4xkceo"]
 
 [ext_resource type="Script" path="res://Scripts/fruit_agent.gd" id="1_qhhpw"]
-[ext_resource type="Texture2D" path="res://Sprites/items_spritesheet.png" id="1_vfgcb"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bo8gr"]
 radius = 11.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xg2oe"]
-atlas = ExtResource("1_vfgcb")
 region = Rect2(96, 288, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_r0ip4"]
