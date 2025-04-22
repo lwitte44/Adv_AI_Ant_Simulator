@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://ct6heuw4xkceo"]
+
+[ext_resource type="Script" path="res://Scripts/fruit_agent.gd" id="1_qhhpw"]
+[ext_resource type="Texture2D" path="res://Sprites/items_spritesheet.png" id="1_vfgcb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bo8gr"]
+radius = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xg2oe"]
+atlas = ExtResource("1_vfgcb")
+region = Rect2(96, 288, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r0ip4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xg2oe")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Fruit_Agent" type="Area2D"]
+z_index = 1
+collision_layer = 2
+script = ExtResource("1_qhhpw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 2)
+shape = SubResource("CircleShape2D_bo8gr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_r0ip4")
+animation = &"new_animation"
+autoplay = "new_animation"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
