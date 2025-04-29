@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 res://Scenes/Fruit_Agent.tscn
+=======
+res://Scenes/Game.tscn
+res://Scenes/Fruit_Agent.tscn
+res://Scenes/Ant_Agent.tscn
+>>>>>>> parent of bea2bd0 (Revert "Update README.md")
