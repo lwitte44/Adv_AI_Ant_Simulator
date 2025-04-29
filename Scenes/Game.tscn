@@ -1,11 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://lyfd77yygfh8"]
+[gd_scene load_steps=5 format=4 uid="uid://lyfd77yygfh8"]
 
-[ext_resource type="Texture2D" path="res://Sprites/Berry_Garden_TileSheet.png" id="1_444rq"]
 [ext_resource type="PackedScene" uid="uid://c35hjjspj62c5" path="res://Scenes/Ant_Agent.tscn" id="2_u5kdj"]
 [ext_resource type="PackedScene" uid="uid://ct6heuw4xkceo" path="res://Scenes/Fruit_Agent.tscn" id="3_77bwv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rwlkk"]
-texture = ExtResource("1_444rq")
 margins = Vector2i(1, 0)
 0:0/0 = 0
 1:0/0 = 0

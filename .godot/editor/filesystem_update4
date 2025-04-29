@@ -1,7 +1,1 @@
 res://Scenes/Game.tscn
-res://Scripts/ant_agent_movement.gd
-res://Scenes/Ant_Agent.tscn
-res://Scenes/Fruit.tscn
-res://Scenes/fruit_agent.tscn
-res://Scenes/Fruit_Agent.tscn
-res://Scripts/fruit_agent.gd
