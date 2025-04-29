@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745340691
+::res://::1745337293
 README.md::TextFile::-1::1745337206::0::1::::<><>::
-::res://Scenes/::1745337305
+::res://Scenes/::1745336905
 Ant_Agent.tscn::PackedScene::6800501914178850358::1745336905::0::1::::<><>::res://Sprites/walking_ant_spritesheet.png
-Fruit_Agent.tscn::PackedScene::6170858354811113854::1745337305::0::1::::<><>::res://Scripts/fruit_agent.gd
+Fruit_Agent.tscn::PackedScene::6170858354811113854::1745336905::0::1::::<><>::res://Scripts/fruit_agent.gd
 Game.tscn::PackedScene::821933019765047891::1745336905::0::1::::<><>::res://Sprites/Berry_Garden_TileSheet.png
-::res://Scripts/::1745340541
+::res://Scripts/::1745336643
 ant_agent_movement.gd::GDScript::-1::1745336643::0::1::::<>CharacterBody2D<>::
+fruit_agent.gd::GDScript::-1::1745335837::0::1::::<>Area2D<>::
